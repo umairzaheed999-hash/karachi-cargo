@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karachi Cargo | UAE to Pakistan Door-to-Door</title>
+
+    <!-- Security Headers -->
+    <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self' https://fonts.googleapis.com https://fonts.gstatic.com 'unsafe-inline'; img-src 'self' data:; connect-src 'none';">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+
+    <!-- SEO Meta Tags -->
+    <meta name="description"
+        content="Seamless door-to-door cargo services from Dubai and Ajman to Pakistan. Reliable and secure logistics solution.">
+    <meta name="keywords"
+        content="cargo, logistics, door-to-door shipping, UAE to Pakistan, Dubai, Ajman, Karachi, secure logistics">
+    <meta name="author" content="Karachi Cargo">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph Tags (for Social Media Sharing) -->
+    <meta property="og:title" content="Karachi Cargo | UAE to Pakistan Delivery">
+    <meta property="og:description"
+        content="Fast, secure, and reliable shipping from UAE (Dubai & Ajman) to Pakistan. We collect from your door and deliver straight to your destination.">
+    <meta property="og:image" content="https://example.com/assets/hero_bg.png">
+    <meta property="og:url" content="https://www.karachicargo.link">
+    <meta property="og:type" content="website">
+
+    <!-- Structured Data (JSON-LD LocalBusiness Schema) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Karachi Cargo",
+      "image": "https://example.com/assets/cargo_front.png",
+      "url": "https://www.karachicargo.link",
+      "telephone": "+971501234567",
+      "areaServed": ["United Arab Emirates", "Pakistan"],
+      "description": "Seamless door-to-door cargo services from Dubai and Ajman to Pakistan. Reliable and secure logistics solution.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Dubai",
+        "addressCountry": "AE"
+      },
+      "serviceArea": [
+        {
+          "@type": "City",
+          "name": "Dubai"
+        },
+        {
+          "@type": "City",
+          "name": "Ajman"
+        },
+        {
+          "@type": "Country",
+          "name": "Pakistan"
+        }
+      ]
+    }
+    </script>
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Custom Cursor Overlay -->
+    <div class="cursor-dot" data-cursor-dot></div>
+    <div class="cursor-outline" data-cursor-outline></div>
+
+    <header>
+        <div class="logo">KARACHI<span>CARGO</span></div>
+        <nav>
+            <a href="#home" data-i18n="nav_home">Home</a>
+            <a href="#services" data-i18n="nav_services">Services</a>
+            <a href="#branches" data-i18n="nav_branches">Branches</a>
+            <a href="#book" data-i18n="nav_book">Book</a>
+            <a href="#track" data-i18n="nav_track">Track</a>
+            <a href="#contact" data-i18n="nav_contact">Contact</a>
+            <button id="langToggle" class="lang-btn" aria-label="Toggle Language" title="Switch to Urdu">
+                <span class="lang-text EN active">EN</span> | <span class="lang-text UR">اردو</span>
+            </button>
+        </nav>
+        <a href="#book" class="cta-btn" data-i18n="nav_book_pickup"
+            style="padding:1rem 2rem; border-radius:30px; display:inline-block; font-weight:600;">Book Pickup</a>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1 data-i18n="hero_title">Seamless Door-to-Door Cargo</h1>
+                <p data-i18n="hero_desc">Fast, secure, and reliable shipping from UAE (Dubai & Ajman) to Pakistan. We
+                    collect from your door
+                    and deliver straight to your destination.</p>
+                <div class="hero-actions">
+                    <button class="btn primary-btn" data-i18n="btn_request_quote">Request Quote</button>
+                    <button class="btn secondary-btn" data-i18n="btn_track_shipment">Track Shipment</button>
+                </div>
+            </div>
+            <div class="hero-graphics">
+                <div class="glass-card stat-card">
+                    <h3>10k+</h3>
+                    <p data-i18n="stat_packages">Packages Delivered</p>
+                </div>
+                <!-- Premium Cargo Front Image -->
+                <img src="assets/cargo_front.png" alt="Premium Cargo Box" class="hero-front-image">
+                <div class="glass-card stat-card">
+                    <h3>100%</h3>
+                    <p data-i18n="stat_safe">Safe & Secure</p>
+                </div>
+                <!-- Animated abstract element -->
+                <div class="glass-hero-element"></div>
+            </div>
+        </section>
+
+        <section id="services" class="services">
+            <h2 data-i18n="services_title">Our Services</h2>
+            <div class="service-cards">
+                <div class="glass-card service-card">
+                    <div class="icon">🏠</div>
+                    <img src="assets/service_door.png" alt="Door to Door Delivery" class="service-img">
+                    <h3 data-i18n="service_1_title">Door-to-Door Collection</h3>
+                    <p data-i18n="service_1_desc">We pick up from any address in the UAE and deliver directly to your
+                        destination in Pakistan.</p>
+                </div>
+                <div class="glass-card service-card">
+                    <div class="icon">📦</div>
+                    <img src="assets/service_pack.png" alt="Secure Packaging" class="service-img">
+                    <h3 data-i18n="service_2_title">Secure Packaging</h3>
+                    <p data-i18n="service_2_desc">Professional packing standards to protect your valuables during
+                        international transit.</p>
+                </div>
+                <div class="glass-card service-card">
+                    <div class="icon">⏱️</div>
+                    <img src="assets/service_transit.png" alt="Fast Transit Times" class="service-img">
+                    <h3 data-i18n="service_3_title">Fast Transit Times</h3>
+                    <p data-i18n="service_3_desc">Optimized logistics network ensuring reliable and expedited delivery
+                        schedules.</p>
+                </div>
+                <div class="glass-card service-card">
+                    <div class="icon">✈️</div>
+                    <img src="assets/service_air.png" alt="Air Cargo" class="service-img">
+                    <h3 data-i18n="service_4_title">Air Cargo</h3>
+                    <p data-i18n="service_4_desc">Fast and reliable air freight from UAE to Pakistan for urgent
+                        shipments.</p>
+                </div>
+                <div class="glass-card service-card">
+                    <div class="icon">🛂</div>
+                    <img src="assets/service_customs.png" alt="Customs Clearance" class="service-img">
+                    <h3 data-i18n="service_5_title">Karachi Customs Clearance</h3>
+                    <p data-i18n="service_5_desc">Complete customs clearance services in Karachi for containers arriving
+                        from any country worldwide.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="branches" class="branches">
+            <h2 data-i18n="branches_title">Our Branches</h2>
+            <div class="branch-cards">
+                <div class="glass-card branch-card">
+                    <img src="assets/branch_dubai.png" alt="Main Branch Dubai" class="branch-img">
+                    <h3 data-i18n="branch_1_title">Main Branch</h3>
+                    <p data-i18n="branch_1_p1">Deira Dubai</p>
+                    <p data-i18n="branch_1_p2">Hor Al Anz</p>
+                </div>
+                <div class="glass-card branch-card">
+                    <img src="assets/branch_satwa.png" alt="Satwa Branch" class="branch-img">
+                    <h3 data-i18n="branch_2_title">Branch 2</h3>
+                    <p data-i18n="branch_2_p1">Al Satwa</p>
+                    <p data-i18n="branch_2_p2">Dubai</p>
+                </div>
+                <div class="glass-card branch-card">
+                    <img src="assets/branch_al_ain.png" alt="Al Ain Branch" class="branch-img">
+                    <h3 data-i18n="branch_3_title">Branch 3</h3>
+                    <p data-i18n="branch_3_p1">Al Ain</p>
+                    <p data-i18n="branch_3_p2">Industrial Area</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="book" class="booking">
+            <div class="booking-container glass-card">
+                <h2 data-i18n="book_title">Book a Shipment</h2>
+                <p data-i18n="book_desc">Fill out the form below to schedule a pickup or request a quote.</p>
+                <form id="bookingForm" class="booking-form">
+                    <div class="form-group">
+                        <label for="name" data-i18n="label_name">Full Name</label>
+                        <input type="text" id="name" name="name" required placeholder="John Doe">
+                    </div>
+                    <div class="form-group">
+                        <label for="email" data-i18n="label_email">Email Address</label>
+                        <input type="email" id="email" name="email" required placeholder="john@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="service" data-i18n="label_service">Service Type</label>
+                        <select id="service" name="service">
+                            <option value="door-to-door" data-i18n="option_door">Door-to-Door Collection</option>
+                            <option value="air-cargo" data-i18n="option_air">Air Cargo</option>
+                            <option value="customs" data-i18n="option_customs">Customs Clearance</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="details" data-i18n="label_details">Shipment Details</label>
+                        <textarea id="details" name="details" rows="4"
+                            placeholder="Briefly describe your package (weight, size, destination city in Pakistan)"></textarea>
+                    </div>
+                    <button type="submit" class="btn primary-btn" id="submitBtn" data-i18n="btn_submit">Submit
+                        Booking</button>
+                    <p id="formStatus" style="display: none; text-align: center; margin-top: 1rem;"></p>
+                </form>
+            </div>
+        </section>
+
+        <section id="track" class="tracking">
+            <div class="tracking-container glass-card">
+                <h2 data-i18n="track_title">Track Your Shipment</h2>
+                <p data-i18n="track_desc">Enter your Tracking ID to view real-time status updates.</p>
+                <div class="track-input-group">
+                    <input type="text" placeholder="e.g. KC-987654321" aria-label="Tracking Number" id="trackingInput">
+                    <button class="btn primary-btn" data-i18n="btn_track">Track</button>
+                </div>
+
+                <!-- Dummy Tracking Details -->
+                <div class="dummy-tracking-result">
+                    <div class="status-step completed">
+                        <span class="step-title" data-i18n="status_picked">Picked Up</span>
+                        <span class="step-desc" data-i18n="status_loc_dubai">Dubai, UAE</span>
+                    </div>
+                    <div class="status-step completed">
+                        <span class="step-title" data-i18n="status_transit">In Transit</span>
+                        <span class="step-desc" data-i18n="status_loc_port">Port Departure</span>
+                    </div>
+                    <div class="status-step active">
+                        <span class="step-title" data-i18n="status_customs">Customs</span>
+                        <span class="step-desc" data-i18n="status_loc_khi">Karachi, PK</span>
+                    </div>
+                    <div class="status-step">
+                        <span class="step-title" data-i18n="status_out">Out for Delivery</span>
+                        <span class="step-desc" data-i18n="status_loc_final">Final Destination</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/971501234567" class="whatsapp-float" target="_blank" rel="noopener noreferrer"
+        aria-label="Chat with us on WhatsApp">
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" viewBox="0 0 16 16">
+            <path
+                d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+        </svg>
+    </a>
+
+    <footer id="contact">
+        <div class="footer-content">
+            <div class="brand">
+                <h2>KARACHI<span>CARGO</span></h2>
+                <p data-i18n="footer_desc">Your trusted logistics bridge between UAE and Pakistan.</p>
+            </div>
+            <div class="contact-info">
+                <p data-i18n="footer_contact_1">📍 Main Hub: Ajman & Dubai, UAE</p>
+                <p>📞 +971 50 XXXXXXX</p>
+                <p>✉️ info@karachicargo.com</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p data-i18n="footer_copy">&copy; 2026 Karachi Cargo. Providing modern cargo solutions.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
